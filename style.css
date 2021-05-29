@@ -1,0 +1,66 @@
+* {box-sizing: border-box}
+
+input[type=text] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+.select{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus
+{
+  background-color: #ddd;
+  outline: none;
+}
+
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #39a0bf;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:2;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+}
+#Appbtn
+{
+  background-color: white;
+  font-family: "Lucida Handwriting";
+  padding: 12px 20px;
+  fontsize:30px;
+}
+#Appbtn:hover
+{
+  background-color: grey;
+}
+#bookbtn:hover
+{
+  background-color: black;
+}
+#head1
+{
+font-size: 30px;
+}
